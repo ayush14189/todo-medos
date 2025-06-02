@@ -17,21 +17,20 @@ A modern, responsive todo list application built with React and TypeScript. Feat
 ## 📸 Screenshots
 
 ### Light Mode
-![Todo List - Light Mode](/public/images/lightmode)
+![Todo List - Light Mode](public/images/lightmode.png)
 *Clean, modern interface with light theme*
 
 ### Dark Mode
-![Todo List - Dark Mode](/public/images/darkmode)
+![Todo List - Dark Mode](public/images/darkmode.png)
 *Elegant dark theme for comfortable nighttime use*
 
 ### Mobile Responsive Design
-![Mobile View](/public/images/mobile)
-*Fully responsive design that works beautifully on all devices*
+![Mobile View](public/images/mobile.png)
 
 ### Feature Showcase
-![Code Quality](/public/images/feaure1)
-![Code Quality](/public/images/feaure2)
-![Code Quality](/public/images/feaure3)
+![Code Quality](public/images/feature1.png)
+![Code Quality](public/images/feature2.png)
+![Code Quality](public/images/feature3.png)
 
 *Built with modern web technologies and best practices*
 
