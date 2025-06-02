@@ -17,19 +17,22 @@ A modern, responsive todo list application built with React and TypeScript. Feat
 ## 📸 Screenshots
 
 ### Light Mode
-![Todo List - Light Mode](https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80)
+![Todo List - Light Mode](/public/images/lightmode)
 *Clean, modern interface with light theme*
 
 ### Dark Mode
-![Todo List - Dark Mode](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80)
+![Todo List - Dark Mode](/public/images/darkmode)
 *Elegant dark theme for comfortable nighttime use*
 
 ### Mobile Responsive Design
-![Mobile View](https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80)
+![Mobile View](/public/images/mobile)
 *Fully responsive design that works beautifully on all devices*
 
 ### Feature Showcase
-![Code Quality](https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80)
+![Code Quality](/public/images/feaure1)
+![Code Quality](/public/images/feaure2)
+![Code Quality](/public/images/feaure3)
+
 *Built with modern web technologies and best practices*
 
 ## 🛠️ Tech Stack
