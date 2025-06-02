@@ -1,73 +1,133 @@
-# Welcome to your Lovable project
+# Todo List Application
 
-## Project info
+A modern, responsive todo list application built with React and TypeScript. Features a clean, intuitive interface with dark/light mode support and persistent local storage.
 
-**URL**: https://lovable.dev/projects/5ef7e490-59b1-41e5-bb63-f2d21c465b85
+## ✨ Features
 
-## How can I edit this code?
+- **Create Todos**: Add new tasks with a simple, elegant form
+- **Mark Complete**: Toggle todos between completed and incomplete states
+- **Edit Todos**: Double-click or use the edit button to modify existing tasks
+- **Delete Todos**: Remove unwanted todos with a single click
+- **Smart Filtering**: View all todos, only active ones, or completed ones
+- **Dark/Light Mode**: Toggle between themes with a beautiful animated switch
+- **Persistent Storage**: Your todos are saved locally and persist between sessions
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Real-time Stats**: See total, completed, and remaining todo counts at a glance
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **React 18** - Modern React with hooks and functional components
+- **TypeScript** - Type-safe development for better code quality
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
+- **Lucide React** - Beautiful, customizable icons
+- **React Router DOM** - Client-side routing
+- **Shadcn/UI** - High-quality, accessible UI components
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5ef7e490-59b1-41e5-bb63-f2d21c465b85) and start prompting.
+## 🏗️ Architecture
 
-Changes made via Lovable will be committed automatically to this repo.
+The application follows a clean, modular architecture:
 
-**Use your preferred IDE**
+```
+src/
+├── components/           # Reusable UI components
+│   ├── FilterButtons.tsx # Todo filtering interface
+│   ├── ThemeToggle.tsx   # Dark/light mode toggle
+│   ├── TodoForm.tsx      # New todo creation form
+│   ├── TodoItem.tsx      # Individual todo item component
+│   └── TodoList.tsx      # Todo list container
+├── hooks/                # Custom React hooks
+│   ├── useLocalStorage.ts # Local storage persistence
+│   └── useTheme.ts       # Theme management
+├── types/                # TypeScript type definitions
+│   └── todo.ts           # Todo-related types and interfaces
+└── pages/                # Page components
+    └── Index.tsx         # Main application page
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Key Design Patterns
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Custom Hooks**: Encapsulate reusable logic (localStorage, theme management)
+- **Component Composition**: Small, focused components for better maintainability
+- **TypeScript Interfaces**: Strict typing for props and data structures
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
 
-Follow these steps:
+## 🚀 Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Node.js (version 16 or higher)
+- npm or yarn package manager
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+1. Clone the repository:
+```bash
+git clone https://github.com/ayush14189/todo-medos.git
+cd todo-list-app
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build the app for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint for code quality checks
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📱 Usage
 
-## What technologies are used for this project?
+### Creating Todos
+1. Type your task in the input field at the top
+2. Press Enter or click the plus button to add the todo
 
-This project is built with:
+### Managing Todos
+- **Complete**: Click the circle icon to mark as done
+- **Edit**: Click the edit icon or double-click the todo text
+- **Delete**: Click the trash icon to remove the todo
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Filtering
+Use the filter buttons to view:
+- **All**: Show all todos
+- **Active**: Show only incomplete todos
+- **Completed**: Show only finished todos
 
-## How can I deploy this project?
+### Theme Toggle
+Click the sun/moon icon in the top right to switch between light and dark modes.
 
-Simply open [Lovable](https://lovable.dev/projects/5ef7e490-59b1-41e5-bb63-f2d21c465b85) and click on Share -> Publish.
+## 🎨 Design Features
 
-## Can I connect a custom domain to my Lovable project?
+- **Glassmorphism**: Modern glass-like UI elements with backdrop blur
+- **Smooth Animations**: Hover effects and transitions for better UX
+- **Accessible Colors**: High contrast ratios for better readability
+- **Consistent Spacing**: Harmonious layout with Tailwind's spacing scale
+- **Icon Integration**: Lucide React icons for intuitive interactions
 
-Yes, you can!
+## 🔧 Customization
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Adding New Features
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The modular architecture makes it easy to extend:
+
+1. **New Components**: Add to `src/components/`
+2. **Additional Hooks**: Create in `src/hooks/`
+3. **Type Extensions**: Update `src/types/todo.ts`
+
+### Styling
+
+The app uses Tailwind CSS classes for styling. Key design tokens:
+- **Colors**: Slate grays with indigo/purple accents
+- **Shadows**: Layered shadows for depth
+- **Borders**: Subtle borders with rounded corners
+- **Typography**: Clean, readable font hierarchy
